@@ -1,4 +1,4 @@
-//Program to check whether a given character is Aplhabet or not
+//Program to check whether a given character is Alphabet or not
 import java.util.Scanner;
 
 public class AlphabetCharacter
@@ -6,11 +6,11 @@ public class AlphabetCharacter
     public static void main(String args[])
     {
        Scanner reader = new Scanner(System.in);
-       System.out.print("\nPlease enter a characher: ");
+       System.out.print("\nPlease enter a character: ");
        char ch = reader.next().charAt(0);
        if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) 
 	{
-	     System.out.print("\nEntred character is an Alphabet.");
+	     System.out.print("\nEntered character is an Alphabet.");
 	}
        else
        {
